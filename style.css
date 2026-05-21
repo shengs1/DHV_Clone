@@ -644,7 +644,7 @@ img { max-width: 100%; height: auto; }
 .luoi-doi-tac { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #eee; border-left: 1px solid #eee; }
 .dt-o { border-right: 1px solid #eee; border-bottom: 1px solid #eee; padding: 20px; display: flex; flex-direction: column; align-items: center; text-align: center; height: 160px; justify-content: center; }
 .dt-o-logo { height: 70px; display: flex; align-items: center; justify-content: center; margin-bottom: 15px; }
-.dt-o-logo img { max-height: 100%; max-width: 140px; object-fit: contain; }
+.dt-o-logo img { max-height: 100%; max-width: 140px; object-fit: contain; display: block; background: transparent; border: none; box-shadow: none; }
 .dt-o-ten { font-size: 12px; font-weight: 600; color: #222; }
 
 /* --- TƯ VẤN (FORM LIÊN HỆ) --- */
@@ -740,7 +740,7 @@ img { max-width: 100%; height: auto; }
 #nut-lien-he .nut-icon img { width: 100%; height: 100%; object-fit: cover; }
 #nut-lien-he .nut-icon:hover { transform: translateY(-5px); }
 
-/* --- CLEANUP HELPERS --- */
+/* --- CLASS HỖ TRỢ DỌN GIAO DIỆN --- */
 .icon-size-14 { font-size: 14px; }
 .icon-size-16 { font-size: 16px; }
 .icon-size-18 { font-size: 18px; }
